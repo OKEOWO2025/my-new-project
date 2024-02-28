@@ -1,0 +1,348 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+}
+
+.line {
+  width: 100%;
+  height: 101.76px;
+  margin: auto;
+}
+
+.active {
+  color: orange;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  text-align: center;
+  /* width: 1440px; */
+  /* height: 156px; */
+  border-radius: 24px;
+  text-decoration: none;
+  margin: auto;
+}
+
+nav ul {
+  display: flex;
+  /* gap: 4.1rem; */
+  margin-top: 43px;
+  pointer-events: all;
+  padding-left: 800px;
+  border-radius: 34px;
+  text-align: center;
+  /* width: 580px; */
+  height: 48px;
+  top: 53px;
+  left: 100%;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  gap: 94px;
+}
+
+.a {
+  text-decoration: none;
+}
+
+.nav ul li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.line1 {
+  background: url("image/Rectangle\ 48.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 619px;
+  color: whitesmoke;
+  position: relative;
+}
+
+.line1 h3 {
+  text-align: center;
+  padding-top: 72px;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+}
+
+.line1 h1 {
+  font-family: Poppins;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 80px;
+  text-align: center;
+}
+
+.line1 h4 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 38px;
+  text-align: center;
+}
+
+.line2 button {
+  width: 200px;
+  height: 68px;
+  padding: 16px, 35px;
+  border-radius: 100px;
+  background-color: transparent;
+  color: rgb(230, 235, 239);
+  font-family: montserrat;
+  font-size: 24px;
+  font-weight: 700px;
+  line-height: 36px;
+  text-align: center;
+  pointer-events: all;
+  border-color: whitesmoke;
+}
+.line2 .but {
+  margin-left: 521px;
+}
+
+a :hover {
+  color: orange;
+}
+
+a {
+  text-decoration: none;
+  text-decoration-style: none;
+}
+.line2 :hover {
+  background-color: rgb(255, 76, 11);
+}
+
+.line3 {
+  position: absolute;
+  top: 450px;
+  left: 25%;
+}
+
+.class {
+  position: relative;
+  top: 500px;
+  left: 300px;
+}
+
+.line4 {
+  position: relative;
+  text-align: center;
+  top: 600px;
+  font-family: Poppins;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+.line5 {
+  position: relative;
+  left: 243px;
+  top: 650px;
+}
+
+.line6 {
+  position: relative;
+  left: 800px;
+  /* top: 300px; */
+  font-family: Montserrat;
+  /* left: 60%; */
+  top: 120px;
+}
+
+.line6 h2 {
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 45px;
+  padding-top: 7px;
+  width: 561px;
+  height: 114px;
+  padding-top: 20px;
+}
+
+.line6 h3 {
+  color: rgba(250, 74, 12, 1);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.line6 h4 {
+  color: rgba(115, 115, 115, 1);
+  padding-top: 17px;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 38px;
+  text-align: left;
+  padding-top: 15px;
+}
+
+.line7 {
+  position: relative;
+  top: 550px;
+  left: 350px;
+}
+
+.line7 h2 {
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 45px;
+  text-align: left;
+  width: 480px;
+  height: 114px;
+  padding-top: 20px;
+}
+
+.line7 h3 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+  color: rgba(250, 74, 12, 1);
+}
+
+.line7 h4 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 38px;
+  text-align: left;
+  width: 462px;
+  height: 76px;
+  color: rgba(115, 115, 115, 1);
+  padding-top: 0;
+}
+
+.line8 {
+  position: relative;
+  left: 900px;
+}
+
+.line9 {
+  position: relative;
+  left: 220px;
+}
+
+.line10 {
+  font-family: Montserrat;
+  font-size: 24px;
+  line-height: 38px;
+  position: relative;
+  left: 850px;
+  font-family: Montserrat;
+  bottom: 550px;
+}
+
+.line10 h3 {
+  color: rgba(250, 74, 12, 1);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  /* text-align: left; */
+}
+
+.line10 h4 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 38px;
+  /* text-align: left; */
+  padding-top: 15px;
+  color: rgba(115, 115, 115, 1);
+}
+
+.line10 h2 {
+  padding-top: 20px;
+  font-family: Montserrat;
+  /* font-size: 24px; */
+}
+
+.line11 {
+  background-image: url(image/Rectangle\ 47.jpg);
+  width: 100%;
+  height: 135px;
+  top: 130px;
+  right: 550px;
+  text-align: center;
+  background-size: cover;
+  /* width: 1440px; */
+  height: 516px;
+  top: -5.9px;
+}
+
+.line11 h2 {
+  font-family: Montserrat;
+  padding-top: 130px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 57px;
+  text-align: center;
+  color: aliceblue;
+}
+
+.line11 h4 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 38px;
+  text-align: center;
+  color: aliceblue;
+  padding-bottom: 50px;
+}
+
+.line11 button {
+  width: 173px;
+  height: 60px;
+  padding: 16px, 45px, 16px, 45px;
+  border-radius: 10px;
+  gap: 10px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  background-color: transparent;
+  border-color: whitesmoke;
+  color: aliceblue;
+}
+
+.line12 :hover {
+  background-color:  rgba(250, 74, 12, 1);
+}
+
+.line13 {
+  padding-top: 66px;
+  padding-bottom: 80.1px;
+}
+
+.line14 {
+  padding-top: 84px;
+  padding-bottom: 99.12;
+}
+
+.line15 {
+  padding-top: 102px;
+  padding-bottom: 104.1px;
+}
+
+footer{
+  display: flex;
+  justify-content: space-evenly;
+}
+
